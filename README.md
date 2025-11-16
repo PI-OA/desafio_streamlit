@@ -80,6 +80,12 @@ To run the application, execute the app.py script from the root directory of the
 python src/app.py
 ```
 
+If you want to launch the Streamlit interface and interactively visualize the crypto price data prepared in this repository, run:
+
+```bash
+streamlit run src/app.py
+```
+
 ## Adding Models
 
 To add SQLAlchemy model classes, create new Python script files within the models/ directory. These classes should be defined according to your database schema.
