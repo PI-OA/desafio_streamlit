@@ -80,6 +80,18 @@ Para ejecutar la aplicación, ejecuta el script app.py desde la raíz del direct
 python src/app.py
 ```
 
+Si quieres iniciar la interfaz de Streamlit y visualizar de forma interactiva los datos de precios de cripto preparados en este repositorio, ejecuta:
+
+```bash
+streamlit run src/app.py
+```
+
+El panel de Streamlit te permite:
+
+- Explorar todo el dataset histórico filtrando por rango de fechas.
+- Visualizar la evolución de los activos mediante un gráfico de líneas.
+- Ingresar un precio histórico de Ethereum (rezago de 15 días) y obtener la predicción del precio de Binance Coin (BNB) con el modelo entrenado.
+
 ## Añadiendo Modelos
 
 Para añadir clases de modelos SQLAlchemy, crea nuevos archivos de script de Python dentro del directorio models/. Estas clases deben ser definidas de acuerdo a tu esquema de base de datos.
