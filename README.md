@@ -86,6 +86,12 @@ If you want to launch the Streamlit interface and interactively visualize the cr
 streamlit run src/app.py
 ```
 
+The Streamlit dashboard lets you:
+
+- Explore the full historical dataset with interactive date filters.
+- Visualize the price evolution of all tracked assets via a line chart.
+- Input a historical Ethereum price (15-day lag) and obtain the predicted Binance Coin (BNB) price with the trained model.
+
 ## Adding Models
 
 To add SQLAlchemy model classes, create new Python script files within the models/ directory. These classes should be defined according to your database schema.
